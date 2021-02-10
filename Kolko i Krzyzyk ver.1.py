@@ -47,6 +47,26 @@ def wpisanie(pozycja_nr, zajety):
     else:
         print('Nie da rady byczq')
 
+        
+# TO WSZYTSKO MOŻESZ ZASTĄPIĆ TYM:
+# def wpisanie(pozycja_nr, zajety, stage):
+#     """Proces dopasowywania wybranego znaku do miejsca na planszy pamiętając o sprawdzeniu czy dane miejsce nie jest już zajęte"""
+#     a = int(input('Enter position: '))
+#     if a > 9 or a < 1:
+#         print("Podałeś niepoprawny numer miejsca")
+#     if zajety[a - 1] == False:
+#         if stage % 2 == 0:
+#             pozycja_nr[a - 1] = "x"
+#         else:
+#             pozycja_nr[a - 1] = "o"
+#         zajety[a - 1] = True
+#         return pozycja_nr, zajety
+#     else:
+#         print('Nie da rady byczq')
+        
+        
+   
+        
 def plansza():
     """Stworzenie planszy do gry"""
     print('|' + pozycja[0] + '|' + pozycja[1] + '|' + pozycja[2] +'|')
